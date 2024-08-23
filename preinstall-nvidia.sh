@@ -24,5 +24,3 @@ sudo dnf update -y
 
 # Reboot if you had a kernel update
 reboot
-
-fi
