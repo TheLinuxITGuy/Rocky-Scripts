@@ -8,7 +8,7 @@ Follow the directions below.
     1. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
     2. Type: `chmod u+x ./*.*`
     3. Type: `./1.install-X11andKDE.sh` Let this script complete and go to the next step.
-    4. Type: `2.preinstall-nvidia.sh`
+    4. Type: `./2.preinstall-nvidia.sh`
 4. The script will run and reboot when finished.
 5. Log back into your TTY session.
 6. From a Terminal, cd back into the Rocky-Scripts folder: 
