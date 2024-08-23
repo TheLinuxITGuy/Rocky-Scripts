@@ -1,8 +1,8 @@
 # Rocky-Scripts
-Various scripts for Rocky Linux 9.4
+These scripts will allow you to install Rocky Linux 9.4 with NVIDIA drivers and KDE as your desktop environemnt. 
 
 ## How do I use it?
-These scripts will allow you to install Rocky Linux 9.4 with NVIDIA drivers and KDE as your desktop environemnt. Please see directions below.
+Please see directions below.
 ### Git method
 1. Download the Rocky Linux 9.4 DVD edition: https://rockylinux.org/download
 2. During the 9.4 install, be sure to select “Server" without GUI
