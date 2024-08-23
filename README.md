@@ -12,7 +12,7 @@ These scripts will allow you to install Rocky Linux 9.4 with NVIDIA drivers and 
     3. Type: `chmod u+x ./*.*`
     4. Type: `./1.install-X11andKDE.sh` Let this script complete and go to the next step.
     5. Type: `./2.preinstall-nvidia.sh`
-4. The script will run and reboot when finished.
+4. The script will run and prompt to reboot when finished.
 5. Log back into your TTY session. (We do not have a GUI just yet)
 6. From a Terminal, cd back into the Rocky-Scripts folder: 
     1. `cd Rocky-Scripts`
