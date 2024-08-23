@@ -4,7 +4,7 @@ APP_NAME="GRUB Fix"
 
 echo -e "\033[0;32m====================================="
 echo -e "\033[1;32mThe Linux IT Guy - Rocky Linux 9.4 POST-Install NVIDIA Script"
-echo -e "\033[1;32mInstalling $APP_NAME"
+echo -e "\033[1;32mRunning $APP_NAME"
 echo -e "\033[0;32m=====================================\033[0m"
 
 # https://forums.rockylinux.org/t/nvidia-drivers-on-rocky-linux/12366
