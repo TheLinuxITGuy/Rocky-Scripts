@@ -10,16 +10,16 @@ Please see directions below.
     1. `sudo dnf install git`
     2. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
     3. Type: `chmod u+x ./*.*`
-    4. Type: `./1a.install-X11.sh`
+    4. Type: `./1.install-X11.sh`
 4. The script will run and prompt to reboot when finished
     1. Log back into your TTY session. (We do not have a GUI just yet)
     2. From a Terminal, cd back into the Rocky-Scripts folder: 
     3. `cd Rocky-Scripts`
-    4. Type:`1b.install-KDE.sh` Let this script complete and go to the next step
     5. Type: `./2.preinstall-nvidia.sh`
 5. The script will run and prompt to reboot when finished
 6. Log back into your TTY session. (We do not have a GUI just yet)
 7. From a Terminal, cd back into the Rocky-Scripts folder: 
     1. `cd Rocky-Scripts`
     2. Type: `./3.install-nvidia.sh` This one takes some time ~5mins
-    3. Type: `./4.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
+    3. Type:`4.install-KDE.sh`
+    4. Type: `./5.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
