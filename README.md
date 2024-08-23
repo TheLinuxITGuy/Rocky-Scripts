@@ -4,7 +4,8 @@ Various scripts for Rocky Linux 9.4
 ## How do I use it?
 Follow the directions below.
 ### Git method
-1. From a Terminal, clone this project and cd into it: 
+1. Run through your 9.4 install and be sure to select “Server” with NO GUI
+2. Login to TTY, then clone this project, and cd into it: 
     1. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
     2. Type: `chmod u+x ./*.*`
     3. Type: `./1.install-X11andKDE.sh` Let this script complete and go to the next step.
