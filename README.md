@@ -16,4 +16,4 @@ These scripts will allow you to install Rocky Linux 9.4 with NVIDIA drivers and 
 6. From a Terminal, cd back into the Rocky-Scripts folder: 
     1. `cd Rocky-Scripts`
     2. Type: `./3.install-nvidia.sh`
-    3. Type: `./4.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install. :)
+    3. Type: `./4.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
