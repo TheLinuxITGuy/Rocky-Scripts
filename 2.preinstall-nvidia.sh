@@ -12,7 +12,7 @@ echo -e "\033[0;32m=====================================\033[0m"
 sudo dnf install epel-release
 
 # Get the major version and download the repo file
-sudo curver="rhel$(rpm -E %rhel)"
+curver="rhel$(rpm -E %rhel)"
 sudo wget -O /etc/yum.repos.d/cuda-$curver.repo \
   http://developer.download.nvidia.com/compute/cuda/repos/$curver/$(uname -i)/cuda-$curver.repo
 
