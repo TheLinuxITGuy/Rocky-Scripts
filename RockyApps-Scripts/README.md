@@ -1,5 +1,5 @@
 # RockyApps-Scripts
-Add and Remove software from EndeavourOS with the click of a button
+Add and Remove software for Rocky Linux with the click of a button
 ![](<Screenshot/Screenshot.png>)
 ## How do I use it?
 Follow the instructions below.
