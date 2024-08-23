@@ -21,5 +21,5 @@ Please see directions below.
 7. From a Terminal, cd back into the Rocky-Scripts folder: 
     1. `cd Rocky-Scripts`
     2. Type: `./3.install-nvidia.sh` This one takes some time ~5mins
-    3. Type:`4.install-KDE.sh`
+    3. Type:`./4.install-KDE.sh`
     4. Type: `./5.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
