@@ -14,4 +14,4 @@ echo -e "\033[0;32m=====================================\033[0m"
 sudo dnf update -y
 
 # X11
-sudo dnf install xorg-x11-server-Xorg xorg-x11-xauth install plasma-desktop kscreen sddm kde-gtk-config dolphin konsole kate plasma-discover firefox rocky-backgrounds sddm-breeze mpv -y
+sudo dnf install xorg-x11-server-Xorg xorg-x11-xauth plasma-desktop kscreen sddm kde-gtk-config dolphin konsole kate plasma-discover firefox rocky-backgrounds sddm-breeze mpv -y
