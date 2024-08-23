@@ -2,7 +2,7 @@
 Add and Remove software from EndeavourOS with the click of a button
 ![](<Screenshot/Screenshot.png>)
 ## How do I use it?
-There are two options: Git and Release. Please choose one.
+Follow the instructions below.
 ### Git method
 1. From a Terminal, cd into RockyApps-Scripts: 
     1. `cd Rocky-Scripts/RockyApps-Scripts`
