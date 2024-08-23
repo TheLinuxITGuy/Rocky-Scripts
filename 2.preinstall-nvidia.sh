@@ -9,7 +9,7 @@ echo -e "\033[0;32m=====================================\033[0m"
 
 # https://forums.rockylinux.org/t/nvidia-drivers-on-rocky-linux/12366
 # rpmfusion-free-release and epel-release are part of extras
-sudo dnf install epel-release
+sudo dnf install epel-release -y
 
 # Get the major version and download the repo file
 curver="rhel$(rpm -E %rhel)"
