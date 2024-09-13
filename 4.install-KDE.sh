@@ -10,4 +10,4 @@ echo -e "\033[0;32m=====================================\033[0m"
 # https://forums.rockylinux.org/t/nvidia-drivers-on-rocky-linux/12366
 # Install KDE
 sudo dnf groupinstall "KDE Plasma Workspaces" -y
-sudo dnf install firefox rocky-backgrounds -y
+sudo dnf install firefox rocky-backgrounds sddm-breeze mpv  -y
