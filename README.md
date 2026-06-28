@@ -26,4 +26,4 @@ Easily install Rocky Linux 9.4 with NVIDIA drivers and KDE as your desktop envir
     4. Type: `./5.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
 
 ## 💖 Sponsor
-https://www.paypal.com/donate/?hosted_button_id=WPTX2BMBARSG2
+https://github.com/sponsors/TheLinuxITGuy
