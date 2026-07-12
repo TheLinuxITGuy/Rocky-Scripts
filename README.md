@@ -6,26 +6,26 @@ Easily install Rocky Linux 10.2 with NVIDIA drivers and KDE as your desktop envi
 ## 🎥 Video
 [![Video](https://img.youtube.com/vi/clZABizrxeM/maxresdefault.jpg)](https://youtu.be/clZABizrxeM)
 
+## The Architecture Breakdown - PLEASE READ
+NVIDIA split its driver support based on the presence of an on-chip hardware component called the GSP (GPU System Processor). New cards work with the Open Drivers (nvidia-open). 
+
+These include: 
+- Turing (GTX 16xx / RTX 20xx)
+- Ampere (RTX 30xx)
+- Ada Lovelace (RTX 40xx)
+- Blackwell (RTX 50xx, which is what I have, the 5060 Ti).
+  
+My script has only been tested with the nvidia-open driver. I will need someone to test on older hardware. Reach out to me on social if you have a machine you can test on. I'll drop the test script in the repo as well.
+
 ## 🖥️ Usage 
-1. Download the Rocky Linux 9.4 DVD edition: https://rockylinux.org/download
-2. During the 9.4 install, be sure to select “Server" without GUI
+1. Download the Rocky Linux 10.2 DVD edition: https://rockylinux.org/download
+2. During the 10.2 install, be sure to select `Server without GUI`
 3. Login to TTY, download git, then clone this project, and cd into it: 
     1. `sudo dnf install git`
     2. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
     3. Type: `chmod u+x *.sh`
-    4. Type: `./1.install-X11.sh`
-4. The script will run and prompt to reboot when finished
-    1. Log back into your TTY session. (We do not have a GUI just yet)
-    2. From a Terminal, cd back into the Rocky-Scripts folder: 
-    3. `cd Rocky-Scripts`
-    5. Type: `./2.preinstall-nvidia.sh`
-5. The script will run and prompt to reboot when finished
-6. Log back into your TTY session. (We do not have a GUI just yet)
-7. From a Terminal, cd back into the Rocky-Scripts folder: 
-    1. `cd Rocky-Scripts`
-    2. Type: `./3.install-nvidia.sh` This one takes some time ~5mins
-    3. Type:`./4.install-KDE.sh`
-    4. Type: `./5.set-desktopenvironment.sh` Let this script finish, then boot into your KDE NVIDIA Install when prompted.
+    4. Type: `KDE - NVIDIA Install.sh`
+5. I've combined the 5 scripts from before to work with a single script this time
 
 ## 💖 Sponsor
 https://github.com/sponsors/TheLinuxITGuy
