@@ -1,5 +1,5 @@
 # 🏔️ Rocky-Scripts
-Easily install Rocky Linux 10.2 with NVIDIA drivers and KDE as your desktop environment. 
+Easily install Rocky Linux 10.2 with NVIDIA drivers and KDE or GNOME as your desktop environment. In the Usage example, I use KDE.
 
 # I am working on the new scripts now. Please come back after the video goes live. I'm still testing.
 
@@ -24,8 +24,8 @@ My script has only been tested with the nvidia-open driver. I will need someone 
     1. `sudo dnf install git`
     2. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
     3. Type: `chmod u+x *.sh`
-    4. Type: `KDE - NVIDIA Install.sh`
-5. I've combined the 5 scripts from before to work with a single script this time
+    4. Type: `./KDE - NVIDIA Install.sh`
+5. I've combined the 5 scripts from before to work as a single script this time
 
 ## 💖 Sponsor
 https://github.com/sponsors/TheLinuxITGuy
