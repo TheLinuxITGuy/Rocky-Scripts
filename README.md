@@ -1,31 +1,61 @@
 # 🏔️ Rocky-Scripts
-Easily install Rocky Linux 10.2 with NVIDIA drivers and KDE or GNOME as your desktop environment. In the Usage example, I use KDE.
 
-# I am working on the new scripts now. Please come back after the video goes live. I'm still testing.
+Easily install Rocky Linux 10.2 paired with NVIDIA drivers and your choice of **KDE Plasma** or **GNOME** desktop environments.
 
-## 🎥 Video
-[![Video](https://img.youtube.com/vi/clZABizrxeM/maxresdefault.jpg)](https://youtu.be/clZABizrxeM)
+> ⚠️ **Under Construction:** I am currently working on and testing the brand new 10.2 scripts. Please check back once the official video goes live!
 
-## The Architecture Breakdown - PLEASE READ
-NVIDIA split its driver support based on the presence of an on-chip hardware component called the GSP (GPU System Processor). New cards work with the Open Drivers (nvidia-open). 
+---
 
-These include: 
-- Turing (GTX 16xx / RTX 20xx)
-- Ampere (RTX 30xx)
-- Ada Lovelace (RTX 40xx)
-- Blackwell (RTX 50xx, which is what I have, the 5060 Ti).
-  
-My script has only been tested with the nvidia-open driver. I will need someone to test on older hardware. Reach out to me on social if you have a machine you can test on. I'll drop the test script in the repo as well.
+## 🎥 Video Guide
+Watch the full step-by-step walkthrough here:
 
-## 🖥️ Usage 
-1. Download the Rocky Linux 10.2 DVD edition: https://rockylinux.org/download
-2. During the 10.2 install, be sure to select `Server without GUI`
-3. Login to TTY, download git, then clone this project, and cd into it: 
-    1. `sudo dnf install git`
-    2. `git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts`
-    3. Type: `chmod u+x *.sh`
-    4. Type: `./KDE - NVIDIA Install.sh`
-5. I've combined the 5 scripts from before to work as a single script this time
+[![Watch the Video](https://img.youtube.com/vi/clZABizrxeM/maxresdefault.jpg)](https://youtu.be/clZABizrxeM)
+
+---
+
+## 🧠 NVIDIA Architecture Breakdown (PLEASE READ)
+
+NVIDIA splits its driver support based on the presence of an on-chip hardware component called the **GSP (GPU System Processor)**. 
+
+### 🟢 Modern Hardware (`nvidia-open`)
+The main production scripts utilize the modern, open-source kernel modules (`nvidia-open`). These have been fully tested on a **5060 Ti** and support the following architectures:
+* **Blackwell** (RTX 50xx)
+* **Ada Lovelace** (RTX 40xx)
+* **Ampere** (RTX 30xx)
+* **Turing** (RTX 20xx / GTX 16xx)
+
+### 🟠 Older Hardware (`cuda-drivers`)
+Older architectures do not support the open driver and require the proprietary closed-source driver (`cuda-drivers`). These are labeled as **Legacy** in this repository and cover:
+* **Volta**
+* **Pascal** (GTX 10xx)
+* **Maxwell** (GTX 9xx)
+
+> 🧪 **Call for Testers:** The legacy scripts are currently experimental. If you have older hardware and are willing to test them, please reach out to me on social media!
+
+---
+
+## 🖥️ Usage Instructions
+
+### 1. OS Installation
+1. Download the **Rocky Linux 10.2 DVD/ISO edition** from the [Official Rocky Linux Download Page](https://rockylinux.org/download).
+2. During the installation process, ensure you select **`Server`** (without GUI) under the Software Selection screen.
+
+### 2. Environment Setup & Execution
+Once your system boots into the terminal (TTY), log in and execute the following commands to clone the repository and run the setup:
+
+```bash
+# 1. Install Git
+sudo dnf install git -y
+
+# 2. Clone the repository and navigate into it
+git clone https://github.com/TheLinuxITGuy/Rocky-Scripts.git && cd Rocky-Scripts
+
+# 3. Make the scripts executable
+chmod u+x *.sh
+
+# 4. Run the installation script of your choice (KDE example below)
+./"KDE - NVIDIA Install.sh"
+```
 
 ## 💖 Sponsor
 https://github.com/sponsors/TheLinuxITGuy
