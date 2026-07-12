@@ -38,7 +38,7 @@ Older architectures do not support the open driver and require the proprietary c
 
 ### 1. OS Installation
 1. Download the **Rocky Linux 10.2 DVD ISO** from the [Official Rocky Linux Download Page](https://rockylinux.org/download).
-2. During the installation process, ensure you select **`Server without GUI`** under the Software Selection screen.
+2. During the installation process, ensure you select **`Server` (without GUI)** under the Software Selection screen.
 
 ### 2. Environment Setup & Execution
 Once your system boots into the terminal (TTY), log in and execute the following commands to clone the repository and run the setup:
