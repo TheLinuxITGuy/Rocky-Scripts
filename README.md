@@ -2,12 +2,13 @@
 
 Easily install Rocky Linux 10.2 paired with NVIDIA drivers and your choice of **KDE Plasma** or **GNOME** desktop environments.
 
-> ⚠️ **Under Construction:** I am currently working on and testing the brand new 10.2 scripts. Please check back once the official video goes live!
+> ⚠️ **WARNING:** I am not liable for any loss of data with the use of these scripts. Please check back once the official video goes live to follow me step-by-step.
 
 ---
 
 ## 🎥 Video Guide
-Watch the full step-by-step walkthrough here:
+<!-- Watch the full step-by-step walkthrough here: -->
+VIDEO GUIDE IS BEING FILMED RIGHT NOW - PLEASE WAIT UNTIL IT COMES OUT IF YOU ARE UNSURE. THANKS EVERYBODY.
 
 [![Watch the Video](https://img.youtube.com/vi/lpoJniK63bo/maxresdefault.jpg)](https://youtu.be/lpoJniK63bo)
 
