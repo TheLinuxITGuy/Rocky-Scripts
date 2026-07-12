@@ -9,7 +9,7 @@ Easily install Rocky Linux 10.2 paired with NVIDIA drivers and your choice of **
 ## 🎥 Video Guide
 Watch the full step-by-step walkthrough here:
 
-[![Watch the Video](https://img.youtube.com/vi/clZABizrxeM/maxresdefault.jpg)](https://youtu.be/clZABizrxeM)
+[![Watch the Video](https://img.youtube.com/vi/lpoJniK63bo/maxresdefault.jpg)](https://youtu.be/lpoJniK63bo)
 
 ---
 
