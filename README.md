@@ -2,12 +2,14 @@
 
 Easily install Rocky Linux 10.2 paired with NVIDIA drivers and your choice of **KDE Plasma** or **GNOME** desktop environments.
 
-> ⚠️ **WARNING:** I am not liable for any loss of data with the use of these scripts. Always take backups of your important data before tinkering.
+> [!WARNING]
+> I am not liable for any loss of data with the use of these scripts. Always take backups of your important data before tinkering.
 
 ---
 
 ## 🎥 Video Guide
-Watch the full step-by-step walkthrough here:
+> [!TIP]
+> Watch the full step-by-step walkthrough below.
 <!--VIDEO GUIDE IS BEING FILMED RIGHT NOW - PLEASE WAIT UNTIL IT COMES OUT IF YOU ARE UNSURE. THANKS EVERYBODY. -->
 <!-- https://youtu.be/eWgOxOs5Fvw -->
 
@@ -32,6 +34,7 @@ Older architectures do not support the open driver and require the proprietary c
 * **Pascal** (GTX 10xx)
 * **Maxwell** (GTX 9xx)
 
+>[!NOTE]
 > 🧪 **Call for Testers:** The legacy scripts are currently experimental. If you have older hardware and are willing to test them, please reach out to me on social media!
 
 ---
