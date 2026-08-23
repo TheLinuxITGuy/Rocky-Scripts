@@ -27,7 +27,7 @@ sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r) -y
 # 3. Install NVIDIA Drivers & Configure Boot Parameters
 echo -e "\033[1;34m--> Installing NVIDIA Proprietary Drivers for Older Cards...\033[0m"
 # SWAPPED: nvidia-open changed to cuda-drivers
-sudo dnf install cuda-drivers -y
+sudo dnf install cuda-drivers-580 -y
 
 echo -e "\033[1;34m--> Configuring GRUB to blacklist Nouveau and enable DRM modesetting...\033[0m"
 sudo grubby --update-kernel=ALL --args="rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1"
