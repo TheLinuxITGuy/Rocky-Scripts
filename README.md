@@ -35,7 +35,7 @@ Older architectures do not support the open driver and require the proprietary c
 * **Maxwell** (GTX 9xx)
 
 >[!NOTE]
-> 🧪 **Call for Testers:** The legacy scripts are currently experimental. If you have older hardware and are willing to test them, please reach out to me on social media!
+> 🧪 **Call for Testers:** The legacy scripts are currently experimental. If you have older hardware and are willing to test them, please reach out to me on social media! Shoutout to **@Mark-gw9vm** for testing. He found out that the legacy install needs -580 in order to work properly. Much appreciated.
 
 ---
 
